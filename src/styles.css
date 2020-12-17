@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+html {
+	background-color: #f4f4f4;
+}
+body {
+	padding: 10px;
+}
+h1 {
+	margin: 0;
+	color: #333333;
+	text-align: left;
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+}
+.heading button {
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	border: none;
+	-webkit-appearance: none;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+.heading button svg {
+	fill: #999;
+}
