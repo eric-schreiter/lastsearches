@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const StyledLastSearches = styled.ul`
 	list-style: none;
@@ -19,7 +19,7 @@ const StyledLastSearches = styled.ul`
 			display: flex;
 
 			&:after {
-				content: '';
+				content: "";
 				border-top-left-radius: 3px;
 				border-top-right-radius: 3px;
 				z-index: 2;
@@ -28,11 +28,7 @@ const StyledLastSearches = styled.ul`
 				bottom: 0;
 				top: 0;
 				position: absolute;
-				background-image: linear-gradient(
-					to right,
-					rgba(0, 0, 0, 0),
-					rgba(0, 0, 0, 0.5)
-				);
+				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 			}
 			img {
 				width: 225px;
@@ -82,27 +78,28 @@ const StyledLastSearches = styled.ul`
 				display: flex;
 				align-items: center;
 				.class {
-					margin-left: 5px;
+					margin-left: 10px;
 					font-size: 12px;
-					color: #666;
+					color: #776;
+					font-weight: normal;
 				}
 			}
 			.date {
 				font-size: 16px;
-				color: #333;
+				color: #333333;
 				margin-bottom: 5px;
-				border-bottom: 1px solid #dcdcdc;
+				border-bottom: 1px solid #f4f4f4;
 				padding-bottom: 10px;
 			}
 			.type {
 				font-size: 14px;
-				color: #999;
+				color: #776;
 				margin-top: 10px;
 				margin-bottom: 5px;
 			}
 			.passenger {
 				font-size: 14px;
-				color: #999;
+				color: #776;
 			}
 		}
 	}
