@@ -1,5 +1,5 @@
-import React from 'react';
-import StyledLastSearches from './LastSearches.styles';
+import React from "react";
+import StyledLastSearches from "./LastSearches.styles";
 
 function LastSearches() {
 	return (
@@ -14,7 +14,7 @@ function LastSearches() {
 					/>
 					<p>
 						<span className="city">London</span>
-						<span className="price">vor 1 Tagen ab 134,56 €</span>
+						<span className="price">vor 1 Tag ab 134,56 €</span>
 					</p>
 				</div>
 				<div className="content">
@@ -36,7 +36,7 @@ function LastSearches() {
 						src="https://images.unsplash.com/photo-1534430480872-3498386e7856?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"
 					/>
 					<p>
-						<span className="city">New York city</span>
+						<span className="city">New York City</span>
 						<span className="price">vor 7 Tagen ab 996,01 €</span>
 					</p>
 				</div>
